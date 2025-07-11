@@ -1,0 +1,17 @@
+.instructor__name {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.instructor__info {
+    padding-left: 20px;
+}
+
+
+
+.instructor__avatar img {
+    width: 100%;
+    max-width: 150px;
+    border-radius: 50%;
+}

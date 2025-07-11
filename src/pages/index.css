@@ -1,0 +1,15 @@
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.avatar-photo {
+  max-width: 100px;
+}
+
+.instructor {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}

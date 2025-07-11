@@ -1,0 +1,18 @@
+.venue {
+    margin-bottom: 40px;
+}
+
+.venue__info {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.venue__where {
+    padding-left: 0px;
+}
+
+.venue__photo img {
+    width: 100%;
+    max-width: 200px;
+}
