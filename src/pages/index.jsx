@@ -1,8 +1,9 @@
 import { render } from '@czechitas/render';
 import '../global.css';
 import './index.css';
+import { WorkshopIntro } from '../components/WorkshopIntro';
 const response = await fetch (
-  'http://localhost:4000/api/workshops'
+  'http://localhost:4000/api/workshops/0'
 )
 
 const responseJson = await response.json()
